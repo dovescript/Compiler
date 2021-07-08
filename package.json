@@ -1,0 +1,13 @@
+{
+  "name": "shockscript-compiler",
+  "version": "1.0.0",
+  "description": "ShockScript Compiler",
+  "type": "module",
+  "main": "src/lib.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["shockscript", "sx", "sxc"],
+  "author": "Klaider",
+  "license": "ISC"
+}

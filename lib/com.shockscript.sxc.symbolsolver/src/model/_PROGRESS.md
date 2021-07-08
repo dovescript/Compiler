@@ -1,0 +1,199 @@
+# Track
+
+- [ ] Host
+- [ ] Host Factory
+  - [ ] `createTargetAndValuePair`
+  - [ ] `createModule`
+  - [ ] `createSymbolAlias`
+  - [ ] `createVariableSlot`
+  - [ ] `createVirtualSlot`
+  - [ ] `createMethodSlot`
+  - [ ] Errors
+    - [ ] `createIncompatibleOverrideSignatureError`
+    - [ ] `createMustOverrideAMethodError`
+    - [ ] `createNotOverridableError`
+    - [ ] `createOverridingPrivateError`
+    - [ ] `createOverridingWithDifferentVisibilityError`
+    - [ ] `createAmbiguousReferenceError`
+    - [ ] `createDuplicateDefinitionError`
+    - [ ] `createWrongNumberOfArgumentsError`
+  - [ ] `createValue`
+  - [ ] `createMe`
+  - [ ] Constants
+    - [ ] `createEmptyConstant`
+    - [ ] `createNothingConstant`
+    - [ ] `createNullConstant`
+    - [ ] `createStringConstant`
+    - [ ] `createBooleanConstant`
+    - [ ] `createSingleConstant`
+    - [ ] `createDoubleConstant`
+    - [ ] `createByteConstant`
+    - [ ] `createIntegerConstant`
+    - [ ] `createLongConstant`
+    - [ ] `createDecimalConstant`
+    - [ ] `createCharConstant`
+    - [ ] `createEnumConstant`
+  - [ ] `createObjectValue`
+  - [ ] `createFrame`
+    - [ ] `createClassFrame`
+    - [ ] `createStructureFrame`
+    - [ ] `createEnumFrame`
+    - [ ] `createInterfaceFrame`
+    - [ ] `createModuleFrame`
+    - [ ] `createActivationFrame`
+    - [ ] `createWithFrame`
+  - [ ] `createFunctionSignature`
+  - [ ] Types
+    - [ ] `createAnyType`
+    - [ ] `createEmptyType`
+    - [ ] `createNothingType`
+    - [ ] `createNullType`
+    - [ ] `createClass`
+    - [ ] `createStructure`
+    - [ ] `createEnum`
+    - [ ] `createInterface`
+    - [ ] `createNullableType`
+    - [ ] `createTupleType`
+    - [ ] `createFunctionType`
+    - [ ] `createUnionType`
+  - [ ] `createDelegate`
+  - [ ] `createReferenceValue`
+  - [ ] `createDynamicReferenceValue`
+  - [ ] `createIndexReferenceValue`
+  - [ ] `createTupleElement`
+  - [ ] `createFunctionExpValue`
+  - [ ] `createConversionValue`
+- [x] Names
+- [x] Names Hierarchy
+- [x] AnyRangeNumbers
+- [x] Target-and-value pair
+- [ ] Symbol instance test properties
+  - [x] `isTargetAndValuePair`
+  - [x] `isModule`
+  - [x] `isSymbolAlias`
+  - [x] `isVariableSlot`
+  - [x] `isVirtualSlot`
+  - [x] `isMethodSlot`
+  - [x] Errors
+    - [x] `isIncompatibleOverrideSignatureError`
+    - [x] `isMustOverrideAMethodError`
+    - [x] `isNotOverridableError`
+    - [x] `isOverridingPrivateError`
+    - [x] `isOverridingWithDifferentVisibilityError`
+    - [x] `isAmbiguousReferenceError`
+    - [x] `isDuplicateDefinitionError`
+    - [x] `isWrongNumberOfArgumentsError`
+  - [x] `isValue`
+  - [x] `isMe`
+  - [x] `isConstant`
+    - [x] `isNothingConstant`
+    - [x] `isStringConstant`
+    - [x] `isBooleanConstant`
+    - [x] `isSingleConstant`
+    - [x] `isDoubleConstant`
+    - [x] `isByteConstant`
+    - [x] `isIntegerConstant`
+    - [x] `isLongConstant`
+    - [x] `isDecimalConstant`
+    - [x] `isCharConstant`
+    - [x] `isEnumConstant`
+  - [x] `isObjectValue`
+  - [x] `isFrame`
+    - [x] `isClassFrame`
+    - [x] `isStructureFrame`
+    - [x] `isEnumFrame`
+    - [x] `isInterfaceFrame`
+    - [x] `isModuleFrame`
+    - [x] `isActivationFrame`
+    - [x] `isWithFrame`
+  - [x] `isType`
+    - [x] `isAnyType`
+    - [x] `isEmptyType`
+    - [x] `isNothingType`
+    - [x] `isNullType`
+    - [x] `isClass`
+    - [x] `isStructure`
+    - [x] `isEnum`
+    - [x] `isInterface`
+    - [x] `isNullableType`
+    - [x] `isTupleType`
+    - [x] `isFunctionType`
+    - [x] `isUnionType`
+  - [x] `isDelegate`
+  - [x] `isReferenceValue`
+  - [x] `isDynamicReferenceValue`
+  - [x] `isIndexReferenceValue`
+  - [x] `isTupleElement`
+  - [x] `isFunctionExpValue`
+  - [x] `isConversionValue`
+- [x] Slot
+  - [x] Variable slot
+  - [x] Virtual slot
+  - [x] Method slot (type parameterized)
+- [x] Scope chain
+- [x] Errors
+  - [x] `IncompatibleOverrideSignatureError`
+  - [x] `MustOverrideAMethodError`
+  - [x] `NotOverridableError`
+  - [x] `OverridingPrivateError`
+  - [x] `OverridingWithDifferentVisibilityError`
+  - [x] `AmbiguousReferenceError`
+  - [x] `DuplicateDefinitionError`
+  - [x] `WrongNumberOfArgumentsError`
+- [x] Symbol alias
+- [ ] Value
+  - [ ] `convertExplicit`
+  - [ ] `convertImplicit`
+  - [x] `convertConstant`
+  - [x] Me
+  - [x] Constant
+    - [x] Nothing constant
+    - [x] String constant
+    - [x] Boolean constant
+    - [x] Single constant
+    - [x] Double constant
+    - [x] Byte constant
+    - [x] Integer constant
+    - [x] Long constant
+    - [x] Decimal constant
+    - [x] Char constant
+    - [x] Enum constant
+  - [x] Object Value
+    - [x] Module
+    - [x] Frame
+      - [x] Class
+      - [x] Structure
+      - [x] Enum
+      - [x] Interface
+      - [x] Module
+      - [x] Activation
+      - [x] With
+    - [x] Function signature
+    - [x] Type
+      - [x] Any type
+      - [x] Empty type
+      - [x] Nothing type
+      - [x] Null type
+      - [x] Class
+      - [x] Structure
+      - [x] Enum
+      - [x] Interface
+      - [x] Nullable type
+      - [x] Tuple type (structural)
+    - [x] Delegate
+  - [x] ReferenceValue
+  - [x] DynamicReferenceValue
+  - [x] IndexReferenceValue
+  - [x] TupleElement
+  - [x] FunctionExpValue
+  - [x] ConversionValue
+  - [x] ConversionRelationship
+
+## Differences from previous model
+
+- Scope extended properties are now referred to as _captured_ slots.
+- `symbol.methodSignature` is now `symbol.functionSignature`.
+
+## Method Overriding
+
+Operator should be possible to be overriden, introducing an operator member on the override error symbols.

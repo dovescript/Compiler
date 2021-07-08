@@ -1,0 +1,16 @@
+{
+  "name": "com.shockscript.sxc.symbolsolver",
+  "version": "1.0.0",
+  "description": "ShockScript compiler module",
+  "main": "src/lib.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "Klaider",
+  "license": "ISC",
+  "dependencies": {
+    "double.js": "^1.0.16"
+  }
+}
