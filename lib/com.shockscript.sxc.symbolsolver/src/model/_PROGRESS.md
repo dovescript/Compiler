@@ -67,7 +67,7 @@
 - [x] Names Hierarchy
 - [x] AnyRangeNumbers
 - [x] Target-and-value pair
-- [ ] Symbol instance test properties
+- [x] Symbol instance test properties
   - [x] `isTargetAndValuePair`
   - [x] `isModule`
   - [x] `isSymbolAlias`
@@ -141,9 +141,9 @@
   - [x] `DuplicateDefinitionError`
   - [x] `WrongNumberOfArgumentsError`
 - [x] Symbol alias
-- [ ] Value
-  - [ ] `convertExplicit`
-  - [ ] `convertImplicit`
+- [x] Value
+  - [x] `convertExplicit`
+  - [x] `convertImplicit`
   - [x] `convertConstant`
   - [x] Me
   - [x] Constant
