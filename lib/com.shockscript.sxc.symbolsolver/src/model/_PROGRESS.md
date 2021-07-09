@@ -2,12 +2,13 @@
 
 - [ ] Host
 - [ ] Host Factory
-  - [ ] `createTargetAndValuePair`
-  - [ ] `createModule`
-  - [ ] `createSymbolAlias`
-  - [ ] `createVariableSlot`
-  - [ ] `createVirtualSlot`
-  - [ ] `createMethodSlot`
+  - [x] `createTargetAndValuePair`
+  - [x] `createModule`
+  - [x] `createSkipVarDecl`
+  - [x] `createSymbolAlias`
+  - [x] `createVariableSlot`
+  - [x] `createVirtualSlot`
+  - [x] `createMethodSlot`
   - [ ] Errors
     - [ ] `createIncompatibleOverrideSignatureError`
     - [ ] `createMustOverrideAMethodError`
@@ -17,7 +18,7 @@
     - [ ] `createAmbiguousReferenceError`
     - [ ] `createDuplicateDefinitionError`
     - [ ] `createWrongNumberOfArgumentsError`
-  - [ ] `createValue`
+  - [x] `createValue`
   - [ ] `createMe`
   - [ ] Constants
     - [ ] `createEmptyConstant`
@@ -70,6 +71,7 @@
 - [x] Symbol instance test properties
   - [x] `isTargetAndValuePair`
   - [x] `isModule`
+  - [x] `isSkipVarDecl`
   - [x] `isSymbolAlias`
   - [x] `isVariableSlot`
   - [x] `isVirtualSlot`
@@ -117,8 +119,8 @@
     - [x] `isInterface`
     - [x] `isNullableType`
     - [x] `isTupleType`
-    - [x] `isFunctionType`
     - [x] `isUnionType`
+  - [x] `isFunctionSignature`
   - [x] `isDelegate`
   - [x] `isReferenceValue`
   - [x] `isDynamicReferenceValue`
@@ -140,6 +142,7 @@
   - [x] `AmbiguousReferenceError`
   - [x] `DuplicateDefinitionError`
   - [x] `WrongNumberOfArgumentsError`
+- [x] SkipVarDecl
 - [x] Symbol alias
 - [x] Value
   - [x] `convertExplicit`
