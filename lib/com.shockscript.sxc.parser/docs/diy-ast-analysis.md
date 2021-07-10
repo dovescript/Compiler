@@ -21,6 +21,7 @@ Use this document to track what nodes your program fully analyses.
   - [ ] Parentheses expression (`ParensExp`)
   - [ ] Function expression (`FnExp`)
   - [ ] Tuple initializer (`TupleLtr`)
+  - [ ] Collection initializer (`CollectionLtr`)
   - [ ] Structure or flags initializer (`StructOrFlagsLtr`)
   - [ ] Dot operator: member or call operator (`MemberOrCallOp`)
   - [ ] Dot operator: member-only (`MemberOp`)

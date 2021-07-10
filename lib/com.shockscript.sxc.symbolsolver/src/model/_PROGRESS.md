@@ -34,7 +34,6 @@
     - [ ] `createDecimalConstant`
     - [ ] `createCharConstant`
     - [ ] `createEnumConstant`
-  - [ ] `createObjectValue`
   - [ ] `createFrame`
     - [ ] `createClassFrame`
     - [ ] `createStructureFrame`
@@ -58,12 +57,12 @@
     - [ ] `createFunctionType`
     - [ ] `createUnionType`
   - [ ] `createDelegate`
-  - [ ] `createReferenceValue`
+  - [x] `createReferenceValue`
   - [ ] `createDynamicReferenceValue`
   - [ ] `createIndexReferenceValue`
   - [ ] `createTupleElement`
-  - [ ] `createFunctionExpValue`
-  - [ ] `createConversionValue`
+  - [x] `createFunctionExpValue`
+  - [x] `createConversionValue`
 - [x] Names
 - [x] Names Hierarchy
 - [x] AnyRangeNumbers
