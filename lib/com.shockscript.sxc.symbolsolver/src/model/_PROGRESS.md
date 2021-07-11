@@ -58,9 +58,9 @@
     - [ ] `createUnionType`
   - [ ] `createDelegate`
   - [x] `createReferenceValue`
-  - [ ] `createDynamicReferenceValue`
-  - [ ] `createIndexReferenceValue`
-  - [ ] `createTupleElement`
+  - [x] `createDynamicReferenceValue`
+  - [x] `createIndexReferenceValue`
+  - [x] `createTupleElement`
   - [x] `createFunctionExpValue`
   - [x] `createConversionValue`
 - [x] Names
