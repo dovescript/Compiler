@@ -1,7 +1,7 @@
 # Track
 
 - [ ] Host
-- [ ] Host Factory
+- [x] Host Factory
   - [x] `createTargetAndValuePair`
   - [x] `createModule`
   - [x] `createSkipVarDecl`
@@ -9,54 +9,53 @@
   - [x] `createVariableSlot`
   - [x] `createVirtualSlot`
   - [x] `createMethodSlot`
-  - [ ] Errors
-    - [ ] `createIncompatibleOverrideSignatureError`
-    - [ ] `createMustOverrideAMethodError`
-    - [ ] `createNotOverridableError`
-    - [ ] `createOverridingPrivateError`
-    - [ ] `createOverridingWithDifferentVisibilityError`
-    - [ ] `createAmbiguousReferenceError`
-    - [ ] `createDuplicateDefinitionError`
-    - [ ] `createWrongNumberOfArgumentsError`
+  - [x] Errors
+    - [x] `createIncompatibleOverrideSignatureError`
+    - [x] `createMustOverrideAMethodError`
+    - [x] `createNotOverridableError`
+    - [x] `createOverridingPrivateError`
+    - [x] `createOverridingWithDifferentVisibilityError`
+    - [x] `createAmbiguousReferenceError`
+    - [x] `createDuplicateDefinitionError`
+    - [x] `createWrongNumberOfArgumentsError`
   - [x] `createValue`
-  - [ ] `createMe`
-  - [ ] Constants
-    - [ ] `createEmptyConstant`
-    - [ ] `createNothingConstant`
-    - [ ] `createNullConstant`
-    - [ ] `createStringConstant`
-    - [ ] `createBooleanConstant`
-    - [ ] `createSingleConstant`
-    - [ ] `createDoubleConstant`
-    - [ ] `createByteConstant`
-    - [ ] `createIntegerConstant`
-    - [ ] `createLongConstant`
-    - [ ] `createDecimalConstant`
-    - [ ] `createCharConstant`
-    - [ ] `createEnumConstant`
-  - [ ] `createFrame`
-    - [ ] `createClassFrame`
-    - [ ] `createStructureFrame`
-    - [ ] `createEnumFrame`
-    - [ ] `createInterfaceFrame`
-    - [ ] `createModuleFrame`
-    - [ ] `createActivationFrame`
-    - [ ] `createWithFrame`
-  - [ ] `createFunctionSignature`
-  - [ ] Types
-    - [ ] `createAnyType`
-    - [ ] `createEmptyType`
-    - [ ] `createNothingType`
-    - [ ] `createNullType`
-    - [ ] `createClass`
-    - [ ] `createStructure`
-    - [ ] `createEnum`
-    - [ ] `createInterface`
-    - [ ] `createNullableType`
-    - [ ] `createTupleType`
-    - [ ] `createFunctionType`
-    - [ ] `createUnionType`
-  - [ ] `createDelegate`
+  - [x] `createInstanceMe`
+  - [x] `createClassStaticMe`
+  - [x] Constants
+    - [x] `createEmptyConstant`
+    - [x] `createNothingConstant`
+    - [x] `createNullConstant`
+    - [x] `createStringConstant`
+    - [x] `createBooleanConstant`
+    - [x] `createSingleConstant`
+    - [x] `createDoubleConstant`
+    - [x] `createByteConstant`
+    - [x] `createIntegerConstant`
+    - [x] `createLongConstant`
+    - [x] `createDecimalConstant`
+    - [x] `createCharConstant`
+    - [x] `createEnumConstant`
+  - [x] `createFrame`
+    - [x] `createClassFrame`
+    - [x] `createStructureFrame`
+    - [x] `createEnumFrame`
+    - [x] `createInterfaceFrame`
+    - [x] `createModuleFrame`
+    - [x] `createActivationFrame`
+    - [x] `createWithFrame`
+  - [x] `createFunctionSignature`
+  - [x] Types
+    - [x] `createAnyType`
+    - [x] `createEmptyType`
+    - [x] `createNothingType`
+    - [x] `createNullType`
+    - [x] `createClass`
+    - [x] `createStructure`
+    - [x] `createEnum`
+    - [x] `createInterface`
+    - [x] `createNullableType`
+    - [x] `createTupleType`
+  - [x] `createDelegate`
   - [x] `createReferenceValue`
   - [x] `createDynamicReferenceValue`
   - [x] `createIndexReferenceValue`
@@ -85,7 +84,8 @@
     - [x] `isDuplicateDefinitionError`
     - [x] `isWrongNumberOfArgumentsError`
   - [x] `isValue`
-  - [x] `isMe`
+  - [x] `isInstanceMe`
+  - [x] `isClassStaticMe`
   - [x] `isConstant`
     - [x] `isNothingConstant`
     - [x] `isStringConstant`
@@ -118,7 +118,6 @@
     - [x] `isInterface`
     - [x] `isNullableType`
     - [x] `isTupleType`
-    - [x] `isUnionType`
   - [x] `isFunctionSignature`
   - [x] `isDelegate`
   - [x] `isReferenceValue`
@@ -147,7 +146,8 @@
   - [x] `convertExplicit`
   - [x] `convertImplicit`
   - [x] `convertConstant`
-  - [x] Me
+  - [x] `InstanceMe`
+  - [x] `ClassStaticMe`
   - [x] Constant
     - [x] Nothing constant
     - [x] String constant
